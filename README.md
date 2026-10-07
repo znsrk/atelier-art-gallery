@@ -4,8 +4,8 @@ Topic: Art Gallery Website
 
 Group members:
 
-- Zhanserik Zharylgassyn
-- Erkebulan Korganbek
+- [Zhanserik Zharylgassyn](https://github.com/znsrk)
+- [Erkebulan Korganbek](https://github.com/Erkosh-IT)
 
 Website: https://znsrk.github.io/atelier-art-gallery/
 
