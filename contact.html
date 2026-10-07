@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Atelier is a student art gallery featuring original illustrations, imaginary artists, and virtual exhibitions.">
+    <title>Contact | Atelier Art Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Playfair+Display:wght@400;500;600&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="index.html" aria-label="Atelier home"><span class="logo-mark" aria-hidden="true">a.</span> atelier<span class="logo-dot">.</span></a>
+            <nav aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="artists.html">Artists</a>
+                <a href="exhibitions.html">Exhibitions</a>
+                <a href="about.html">About</a>
+                <a href="contact.html" aria-current="page">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main id="main-content">
+        <section class="page-heading container">
+            <p class="eyebrow">05 / Atelier collection</p>
+            <h1>Let’s talk art<span class="accent">.</span></h1>
+            <p class="page-intro">A question, a favorite piece, or a new perspective. Start a conversation with the project team.</p>
+        </section>
+        <section class="container collection-section">
+            <div class="row g-5">
+                <div class="col-md-5 contact-copy"><p class="eyebrow">Get in touch</p><h2>Every conversation<br>starts somewhere.</h2><p>Project contacts:<br>Zhanserik Zharylgassyn<br>Erkebulan Korganbek</p><p>This is a fictional online gallery for a midterm project. There is no physical venue or booking service.</p><div class="contact-note" id="form-note"><h3>About this form</h3><p>This is an HTML form demonstration. It checks required fields and your email format, then opens a demo confirmation page. Your message is not sent or saved. Please use sample details.</p></div></div>
+                <div class="col-md-7">
+                    <!-- No name attributes: demo values are not added to the destination URL. -->
+                    <form action="thank-you.html" method="get" class="contact-form" aria-describedby="form-note">
+                        <div class="mb-4"><label for="visitor-name" class="form-label">Your name <span class="required">*</span></label><input type="text" id="visitor-name" class="form-control" placeholder="Alex Smith" autocomplete="name" maxlength="100" required></div>
+                        <div class="mb-4"><label for="visitor-email" class="form-label">Email address <span class="required">*</span></label><input type="email" id="visitor-email" class="form-control" placeholder="alex@example.com" autocomplete="email" maxlength="150" required></div>
+                        <div class="mb-4"><label for="subject" class="form-label">What is on your mind?</label><select id="subject" class="form-select"><option>General question</option><option>The artwork collection</option><option>Virtual exhibitions</option><option>Project feedback</option></select></div>
+                        <div class="mb-4"><label for="message" class="form-label">Your message <span class="required">*</span></label><textarea id="message" class="form-control" rows="5" placeholder="I would like to know more about…" maxlength="2000" required></textarea></div>
+                        <p class="caption-note">* Required fields. Demo only; no message will be delivered.</p>
+                        <button type="submit" class="btn gallery-button">Try the demo form ↗</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div>
+                    <a class="footer-logo" href="index.html">atelier.</a>
+                    <p>A little space for a different perspective.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="contact.html">Contact the project team</a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+                    <a href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer">Pinterest ↗</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Atelier · Student art gallery project</p>
+                <p>Zhanserik Zharylgassyn &amp; Erkebulan Korganbek</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
